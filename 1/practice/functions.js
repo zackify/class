@@ -50,3 +50,27 @@ let names = renderNames(name => {
 });
 
 console.log(names);
+
+const nameMethods = {
+  firstName() {
+    return 'bob';
+  },
+  lastName() {
+    return 'smith';
+  },
+};
+
+console.log(nameMethods.firstName());
+
+class Name {
+  constructor(name) {
+    this.name = name;
+  }
+  first() {
+    return this.name;
+  }
+}
+
+let name = new Name('Zach');
+
+console.log(name.first());
