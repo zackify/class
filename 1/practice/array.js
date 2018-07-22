@@ -5,6 +5,10 @@ let items = ['zach', 'alex', 'mckinley', 'sam'];
 // What does it do?
 items.forEach(item => console.log(item));
 
+for (let item of items) {
+  console.log(item);
+}
+
 //objects store a bunch of stuff
 let car = {
   name: 'Mazda 3',
