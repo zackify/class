@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-modules game.mjs",
-    "watch": "nodemon --experimental-modules game.mjs"
+    "start": "NODE_PATH=./code node -r esm code/index.js",
+    "watch": "NODE_PATH=./code nodemon -r esm code/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prompt": "^1.0.0"
+    "esm": "^3.0.72"
   }
 }
