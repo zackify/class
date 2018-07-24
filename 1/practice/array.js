@@ -1,5 +1,7 @@
 //how you get data from other sources, an array
 let items = ['zach', 'alex', 'mckinley', 'sam'];
+//index
+//length / count
 
 //where did .forEach come from?
 // What does it do?
@@ -23,5 +25,9 @@ console.log(car);
 //Lets say we need another car, same configuration, but it's a sonata
 
 let sonata = { ...car, name: 'Sonata' };
+
+let cars = [car, sonata];
+
+console.log(cars); // ?
 
 //If we log this what do we see?
