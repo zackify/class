@@ -1,0 +1,1 @@
+- Different ways to achieve same result. can use objects to organize, or functions and multiple files
