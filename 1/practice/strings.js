@@ -1,4 +1,3 @@
-
 let number = 5;
 
 //whats this toString thing?
@@ -24,14 +23,13 @@ let type = typeof result;
 //whats this do??
 parseInt(result);
 
+// true false null undefined
 
-true false null undefined
+let booleans = { test: null, test2: '', test3: ' ', test4: 0, test5: 1 };
 
-let booleans = { test: null, test2: '', test3: ' ', test4: 0, test5: 1 }
+console.log(booleans.blah);
 
-console.log(booleans.blah)
+let number = 5;
+let string = '5';
 
-let number = 5
-let string = '5'
-
-if(number == string) console.log('will this be logged?')
+if (number == string) console.log('will this be logged?');
