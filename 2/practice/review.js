@@ -10,10 +10,10 @@ nameTest();
 //Why doesn't this run ^
 //cause you gotta call the nameTest function that contains the console.log()
 
-/* const person = {
-  name: 'Zach'
-  about: 'Codes for dayz bruh'
-} */
+const person = {
+  name: 'Zach',
+  about: 'Codes for dayz bruh',
+};
 
 // whats wrong ^
 
