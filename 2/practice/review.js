@@ -18,4 +18,4 @@ const person = {
 // whats wrong ^
 
 //Log out: "Name: {X}, like to {about}"
-console.log();
+console.log(`Name: ${person.name}, likes to ${person.about}`);
