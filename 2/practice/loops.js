@@ -1,12 +1,19 @@
-const number = 1;
+let number = 1;
+number = 2;
 
+console.log(number);
+
+//mutable - changed after creating
+//immutable - cant be changed after creation
+
+console.log(number);
 //this doesnt run. hmmm ;)
 
-while (number < 10) {
-  number++;
-  console.log(number);
-}
+// while (number < 10) {
+//   number++;
+//   console.log(number);
+// }
 
-for (let i = 0; i < 10; i++) {
-  console.log(i);
-}
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
