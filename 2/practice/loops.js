@@ -1,18 +1,15 @@
-let number = 1;
-number = 2;
+let start = 0;
+let end = 8;
 
-console.log(number);
+while (start < end) {
+  if (start % 2 === 0) {
+    console.log('divisible by 2!');
+    console.log(start);
+    //start = 0;
+  } else console.log(start);
 
-//mutable - changed after creating
-//immutable - cant be changed after creation
-
-console.log(number);
-//this doesnt run. hmmm ;)
-
-// while (number < 10) {
-//   number++;
-//   console.log(number);
-// }
+  start++; //1
+}
 
 // for (let i = 0; i < 10; i++) {
 //   console.log(i);
