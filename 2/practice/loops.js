@@ -1,4 +1,4 @@
-const number = 1;
+let number = 1;
 
 //this doesnt run. hmmm ;)
 
