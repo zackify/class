@@ -1,8 +1,6 @@
 /*
-  Make an object with 3 properties: firstName, lastName, and getName
+  Make an object with 2 properties: firstName, lastName
 */
-
-
 
 /*
   make a function called getGreeting 
@@ -11,8 +9,6 @@
   and returns the name joined together with a greeting message, ex:
   Hello, First, Last
 */
-
-
 
 /*
 
