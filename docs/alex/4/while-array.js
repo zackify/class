@@ -32,6 +32,9 @@ c(posts.length);
 
 console.log(posts);
 
-for (let i = 0; i < posts.length; i++) {
-  c(i + ' hello');
+let start = 0;
+
+while (start < posts.length) {
+  c(posts[start].title);
+  start++;
 }
