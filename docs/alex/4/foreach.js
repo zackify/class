@@ -30,4 +30,6 @@ let posts = [post1, post2, post3];
 
 c(posts.length);
 
+posts.forEach(post => c(post.title + 'foreach'));
+
 posts.map(post => c(post.title));
