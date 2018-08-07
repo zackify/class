@@ -36,4 +36,5 @@ console.log(booleans.blah);
 
 let number = 5;
 let string = '5';
+
 if (number == string) console.log('will this be logged?');
