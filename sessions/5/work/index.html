@@ -5,7 +5,23 @@
   <title>test</title>
   <script>
 
+    //recreate in react wednesday
     setTimeout(() => document.getElementById('test').innerHTML = 'yooooo', 2000)
+
+
+    let postTitles = ['Test', 'yay', 'help']
+
+    window.onload = () => {
+
+      postTitles.forEach(title => {
+        let element = document.createElement('div')
+        element.innerHTML = title
+
+        document.querySelector('#test').appendChild(element)
+      })
+
+    }
+
   </script>
 </head>
 
