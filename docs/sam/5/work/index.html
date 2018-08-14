@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>test</title>
+  <script>
+
+    setTimeout(() => document.getElementById('test').innerHTML = 'yooooo', 2000)
+
+
+    let postTitles = ['Test', 'yay', 'help']
+
+    window.onload = () => {
+
+
+      postTitles.forEach(title => {
+        let element = document.createElement('div')
+        element.innerHTML = title
+        document.querySelector('#test').appendChild(element)
+      })
+    }
+  </script>
+</head>
+
+<body>
+  <div id="test">Hello</div>
+</body>
+
+</html>
