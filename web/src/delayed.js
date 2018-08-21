@@ -9,8 +9,6 @@ export default class Delayed extends React.Component {
   render() {
     let { text } = this.state;
 
-    console.log(text, 'rendered');
-
     let newText = 'bye';
     if (text === 'bye') newText = 'hello';
 

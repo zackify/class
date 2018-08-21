@@ -3,6 +3,8 @@ import Blog from './blog';
 import Delayed from './delayed';
 import RenderArray from './render-array';
 import Header from './header';
+import Tabs from './fun/tabs';
+import Post from './fun/load-post';
 
 class App extends Component {
   constructor() {
@@ -13,15 +15,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <p className="App-intro">
+        <Post id={4} />
+        {/* <Post id={5} />
+        <Post id={5} /> */}
+        {/* <Header /> */}
+        {/* <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Delayed />
         <RenderArray />
 
         <Blog />
-        <Blog />
+        <Blog /> */}
       </div>
     );
   }
